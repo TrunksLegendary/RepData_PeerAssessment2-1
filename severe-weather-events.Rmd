@@ -38,7 +38,7 @@ From the Coursera "Reproducible Research" course
 [file repository](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2),
 we obtain the storm data in bzip archive format and extract it.
 
-```{ r download.data,cache=T,eval=F}
+```{r download.data,cache=T,eval=F}
 download.file("http://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2", destfile="repdata-data-StormData.csv.bz2")
 
 bunzip2("repdata-data-StormData.csv.bz2", overwrite=T, remove=F)
